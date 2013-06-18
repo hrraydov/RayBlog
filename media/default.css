@@ -1,0 +1,99 @@
+body{
+    min-width:680px;
+    font-family: 'Tenor Sans', Century Gothic, cursive;
+}
+nav menu ul li{
+    background: #AFC6E9;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    color: #F7113A;
+    display: inline;
+    font-size: 14px;
+    padding: 10px;
+    margin-right: 5px;
+    text-align: center;
+    box-shadow: 0 0 3px #999;
+
+}
+nav menu ul li a{
+    color: #f46e86;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+}
+nav{
+    margin:auto;
+    max-width:700px;
+    text-align:center;
+}
+nav menu ul{
+    padding:0;
+}
+section#main{
+    margin:auto;
+    clear:both;
+    max-width:600px;
+    min-height: 300px;
+}
+.postContainer{
+    padding: 5px;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -kthml-border-radius: 20px;
+    border-radius: 20px;
+    background: #afc6e9;
+    box-shadow: 0 0 3px #999;
+}
+.postTitle{
+    padding: 0 0 4px;
+    font-size: 150%;
+    font-weight: normal;
+    line-height: 1.4em;
+    color: #f46e86;
+    margin: 5px;
+}
+.postDate{
+    background: none repeat scroll 0 0 #FFCCCC;
+    -moz-border-radius: 0 20px 0 20px;
+    -webkit-border-radius: 0 20px 0 20px;
+    -khtml-border-radius: 0 20px 0 20px;
+    color: #F46E86;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 35px;
+    letter-spacing: 0.1em;
+    margin: 1.5em 30px -10px -50px;
+    overflow: hidden;
+    padding: 5px;
+    width: 40px;
+    text-align: center;
+    box-shadow: 0 0 3px #999;
+    text-transform: uppercase;
+    line-height: 1.4em;
+}
+.pageContainer{
+    padding: 5px;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -kthml-border-radius: 20px;
+    border-radius: 20px;
+    background: #afc6e9;
+    box-shadow: 0 0 3px #999;
+}
+.adminTable{
+    margin-left:30px;
+}
+.commentContainer{
+    position:relative;
+    left:20px;
+
+}
